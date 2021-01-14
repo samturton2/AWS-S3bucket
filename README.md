@@ -62,3 +62,5 @@ print('Existing buckets:')
 for bucket in response['Buckets']:
     print(f'  {bucket["Name"]}')
 ```
+[AWScli documentation](https://pypi.org/project/awscli/)
+[amazon s3 bucket boto3 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-example-creating-buckets.html)
